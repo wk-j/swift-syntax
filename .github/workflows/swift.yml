@@ -4,6 +4,7 @@ name: swift
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - uses: Didstopia/SwiftAction@v1.0.0
       with:
