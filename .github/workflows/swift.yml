@@ -1,0 +1,11 @@
+on: push
+name: swift
+
+jobs:
+  build:
+    run-on: ubuntu-latest
+    steps:
+
+    - uses: Didstopia/SwiftAction@v1.0.0
+      with:
+        args: "SimpleValue.swift"
