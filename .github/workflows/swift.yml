@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: Didstopia/SwiftAction@v1.0.0
       with:
-        args: "SimpleValue.swift"
+        args: "src/SimpleValue.swift"
